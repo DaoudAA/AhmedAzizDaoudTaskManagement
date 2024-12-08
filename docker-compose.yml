@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  db_employee:
+    image: pgvector/pgvector:pg15
+    environment:
+      POSTGRES_DB: db_task
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: azerty
+    ports:
+      - 5433:5432
+  
