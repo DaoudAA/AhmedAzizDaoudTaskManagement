@@ -2,10 +2,16 @@
  i have written a code for palindrome which get as in standard input the string to check on if its palindrme or no 
  and in the output user will get "true" or "false" in the standard output 
  we can run the code by executing these following steps : 
+
+
  cd Part1
+
  //to compile the file 
+
+
  g++ Palindrome.cpp -o Palindrome  
  //to run the output file 
+
  ./Palindrome
 
 
@@ -28,3 +34,9 @@
     The prority was a an enumeration
     the task entity has all fields as well as mapped many to many with the taskcategory because  one task can have one or more several categories 
     for categories : i have designed the entity to be handling only the name of the category
+
+to connect to the apis : 
+i engineered endpoints with 
+'localhost:8080/Tasks'
+and 
+'localhost:8080/TaskCategories'
